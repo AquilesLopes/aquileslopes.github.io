@@ -209,9 +209,6 @@
         border-right: none;
         border-bottom: 5px solid var(--bio-border-color);
     }
-    #bio-container h2 {
-        display: none;
-    }
     #bio-container p {
         max-width: 60%;
         margin-top: 10px auto;
