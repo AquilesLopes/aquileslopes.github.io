@@ -58,12 +58,17 @@
     margin-bottom: 25px;
 }
 
+#about-container h1 {
+    text-align: center;
+}
+
 #bio-container #welcome-text {
     font-weight: bold;
 }
 
 #bio-container p {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 #bio-image {
@@ -127,6 +132,7 @@
     font-size: 24px;
     margin-bottom: 15px;
     font-weight: bold;
+    text-align: center;
 }
 
 .description {
