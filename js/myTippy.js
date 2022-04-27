@@ -101,3 +101,19 @@ tippy('.devicon-tomcat-line', {
 tippy('.logo-linkedin', {
     content: 'LinkedIn',
 });
+
+tippy('.img-spring-boot', {
+    content: 'Spring Boot',
+});
+
+tippy('.img-spring-security', {
+    content: 'Spring Security',
+});
+
+tippy('.img-spring-data', {
+    content: 'Spring Data',
+});
+
+tippy('.img-maven', {
+    content: 'Apache Maven',
+});

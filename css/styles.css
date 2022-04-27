@@ -198,13 +198,14 @@
 }
 
 .skills-box i {
-    font-size: 45px;
+    font-size: 40px;
     margin-right: 10px;
 }
 
 .skills-box img {
-    height: 45px;
+    height: 40px;
     width: auto;
+    margin-right: 10px;
 }
 
 
