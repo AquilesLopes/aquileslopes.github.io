@@ -7,11 +7,11 @@ tippy('.devicon-css3-plain', {
 });
 
 tippy('.devicon-javascript-plain', {
-    content: 'Javascript',
+    content: 'JavaScript',
 });
 
 tippy('.devicon-typescript-plain', {
-    content: 'Typescript',
+    content: 'TypeScript',
 });
 
 tippy('.devicon-java-plain', {
@@ -67,7 +67,7 @@ tippy('.devicon-jquery-plain', {
 });
 
 tippy('.devicon-spring-plain', {
-    content: 'Spring Boot',
+    content: 'Spring Tool Suite',
 });
 
 tippy('.devicon-vscode-plain', {
