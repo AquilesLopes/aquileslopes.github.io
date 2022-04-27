@@ -197,6 +197,11 @@
     margin-right: 10px;
 }
 
+.skills-box img {
+    height: 45px;
+    width: auto;
+}
+
 
 /* Mobile */
 
@@ -233,5 +238,9 @@
     }
     .skills-box i {
         font-size: 60px;
+    }
+    .skills-box img {
+        height: 60px;
+        width: auto;
     }
 }
