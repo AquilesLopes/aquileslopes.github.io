@@ -121,3 +121,7 @@ tippy('.img-maven', {
 tippy('.img-postman', {
     content: 'Postman',
 });
+
+tippy('.img-jwt', {
+    content: 'JSON Web Tokens',
+});
