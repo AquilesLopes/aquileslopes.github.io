@@ -117,3 +117,7 @@ tippy('.img-spring-data', {
 tippy('.img-maven', {
     content: 'Apache Maven',
 });
+
+tippy('.img-postman', {
+    content: 'Postman',
+});
