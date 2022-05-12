@@ -1,0 +1,22 @@
+[
+    { "key": "line-software-engineer", "value": "Engenheiro de Software" },
+    { "key": "line-software-engineering-specialist", "value": "Pós-graduação em Engenharia de Software" },
+    { "key": "line-bachelor-of-computer-science", "value": "Bacharel em Ciência da Computação" },
+    { "key": "line-formation", "value": "Formação" },
+    { "key": "line-projects", "value": "Projetos" },
+    { "key": "btn-modal-close", "value": "Fechar" },
+    { "key": "btn-read-more", "value": "Ver mais" },
+    { "key": "title-modal-project-erp", "value": "Planejamento de Recursos Empresariais" },
+    { "key": "title-project-erp-description-1", "value": "Sistema integrado de gestão empresarial focado em provedores de internet, para gerenciamento de estoque, ordens de serviço, frota de veículos, holerites, normas internas." },
+    { "key": "title-project-erp-description-2", "value": "O sistema possui integração com sistema de gerenciamento de clientes, sistema de ligações telefônicas sobre IP, PABx, it TV, Paramount Plus, Fortics, entre outros." },
+    { "key": "title-project-erp-description-3", "value": "Aplicativo desenvolvido com HTML, CSS, JS empacotados em um projeto Apache Cordova com integração com o smartphone através do Cordova." },
+    { "key": "title-modal-project-hermes", "value": "Sistema Hermes" },
+    { "key": "title-project-hermes-description-1", "value": "Desenvolvendo para envio de mensagens, em lote, informativas sobre o status de serviço para clientes, integração através de API REST de provedores WhatsApp." },
+    { "key": "title-project-hermes-description-2", "value": "Este sistema possui um espelho sempre atualizado da base de clientes, montado em servidor e rede diferente do principal, para garantia do serviço." },
+    { "key": "title-project-hermes-description-3", "value": "Aplicativo desenvolvido com HTML, CSS, JS empacotados em um projeto IONIC REACT com integração com o smartphone através do CapacitorJs" },
+    { "key": "title-project-hermes-description-4", "value": "Back-end é uma API RESTful com Spring Boot com banco de dados MongoDB." },
+    { "key": "title-modal-project-mercury", "value": "Sistema Mercúrio" },
+    { "key": "title-project-mercury-description-1", "value": "Sistema desenvolvido para gerenciamento de clientes, estoque e orçamentos de serviços automotivos." },
+    { "key": "title-project-mercury-description-2", "value": "Aplicativo desenvolvido com HTML, CSS, JS empacotados em um projeto IONIC REACT com integração com o smartphone através do CapacitorJs" },
+    { "key": "title-project-mercury-description-3", "value": "Back-end é uma API RESTful com Spring Boot com banco de dados MongoDB." }
+]
