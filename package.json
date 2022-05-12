@@ -1,0 +1,14 @@
+{
+    "name": "profile",
+    "version": "1.0.0",
+    "description": "profile project.",
+    "scripts": {
+        "lite": "lite-server --port 8080",
+        "start ": "npm run lite"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "lite-server": "^1.3.4"
+    }
+}

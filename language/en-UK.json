@@ -1,0 +1,22 @@
+[
+    { "key": "line-software-engineer", "value": "Software Engineer" },
+    { "key": "line-software-engineering-specialist", "value": "Postgraduate in Software Engineering" },
+    { "key": "line-bachelor-of-computer-science", "value": "Bachelor of Computer Science" },
+    { "key": "line-formation", "value": "Formation" },
+    { "key": "line-projects", "value": "Projects" },
+    { "key": "btn-modal-close", "value": "Close" },
+    { "key": "btn-read-more", "value": "Read more" },
+    { "key": "title-modal-project-erp", "value": "Enterprise Resource Planning" },
+    { "key": "title-project-erp-description-1", "value": "Integrated business management system focused on internet providers, for inventory management, work orders, vehicle fleet, payslips, internal regulations." },
+    { "key": "title-project-erp-description-2", "value": "The system has integrations with a customer management system, a telephone call system over IP, PABx, it TV, Paramount Plus, Fortics, among others." },
+    { "key": "title-project-erp-description-3", "value": "Application developed with HTML, CSS, JS packaged in an Apache Cordova project with smartphone integration through Cordova." },
+    { "key": "title-modal-project-hermes", "value": "Hermes System" },
+    { "key": "title-project-hermes-description-1", "value": "Developing for sending messages, in batch, informative about the status of service to customers, integration through REST API of WhatsApp providers." },
+    { "key": "title-project-hermes-description-2", "value": "This system has an always updated mirror of the client base, mounted on a server and network different from the main one, to guarantee the service." },
+    { "key": "title-project-hermes-description-3", "value": "Application developed with HTML, CSS, JS packaged in an IONIC REACT project with smartphone integration through CapacitorJs" },
+    { "key": "title-project-hermes-description-4", "value": "Back-end is a Spring Boot RESTful API with MongoDB database." },
+    { "key": "title-modal-project-mercury", "value": "Mercury System" },
+    { "key": "title-project-mercury-description-1", "value": "System developed for managing customers, inventory and budgets for automotive services." },
+    { "key": "title-project-mercury-description-2", "value": "Application developed with HTML, CSS, JS packaged in an IONIC REACT project with smartphone integration through CapacitorJs" },
+    { "key": "title-project-mercury-description-3", "value": "Back-end is a Spring Boot RESTful API with MongoDB database." }
+]

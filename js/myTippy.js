@@ -42,7 +42,7 @@ tippy('.devicon-postgresql-plain', {
     content: 'PostgreSQL',
 });
 
-tippy('.devicon-oracle-plain', {
+tippy('.img-oracle', {
     content: 'Oracle',
 });
 
@@ -124,4 +124,48 @@ tippy('.img-postman', {
 
 tippy('.img-jwt', {
     content: 'JSON Web Tokens',
+});
+
+tippy('.img-cordova', {
+    content: 'Apache Cordova',
+});
+
+tippy('.img-capacitor', {
+    content: 'Capacitor JS',
+});
+
+tippy('.img-brazil', {
+    content: 'Portuguese language (pt-BR)',
+});
+
+tippy('.img-united-kingdom', {
+    content: 'English language (en-UK)',
+});
+
+tippy('.img-linkedin', {
+    content: 'LinkedIn',
+});
+
+tippy('.img-xing', {
+    content: 'XING',
+});
+
+tippy('.img-github', {
+    content: 'GitHub',
+});
+
+tippy('.img-discord', {
+    content: 'Discord',
+});
+
+tippy('.img-instagram', {
+    content: 'Instagram',
+});
+
+tippy('.img-twitter', {
+    content: 'Twitter',
+});
+
+tippy('#email-container', {
+    content: 'Outlook',
 });
