@@ -26,6 +26,11 @@
     border-radius: 3px;
 }
 
+.tippy-box[data-theme~='gluom'] {
+    background-color: #000000;
+    color: #54B689;
+}
+
 
 /* Variables */
 
@@ -250,6 +255,11 @@ a:link {
     margin-right: 5px;
 }
 
+.skills-box-modal i:hover {
+    font-size: 40px;
+    margin-right: 5px;
+}
+
 .skills-box-modal img {
     height: 30px;
     width: auto;
@@ -258,8 +268,23 @@ a:link {
     vertical-align: top;
 }
 
+.skills-box-modal img:hover {
+    height: 40px;
+    width: auto;
+    margin-right: 5px;
+    margin-top: 0px;
+    vertical-align: top;
+}
+
 #menu-language img {
     height: 20px;
+    width: auto;
+    margin-right: 10px;
+    float: right;
+}
+
+#menu-language img:hover {
+    height: 30px;
     width: auto;
     margin-right: 10px;
     float: right;
