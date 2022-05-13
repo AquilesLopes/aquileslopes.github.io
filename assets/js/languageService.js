@@ -5,11 +5,11 @@ var LIST_EN_UK = [];
 var SPINNER = '<span class="spinner-grow text-success spinner-grow-sm" role="status">';
 SPINNER += '<span class="visually-hidden">Loading...</span></span>';
 
-$.getJSON('../language/pt-BR.json', function(jd) {
+$.getJSON('../assets/language/pt-BR.json', function(jd) {
     LIST_PT_BR = jd;
 })
 
-$.getJSON('../language/en-UK.json', function(jd) {
+$.getJSON('../assets/language/en-UK.json', function(jd) {
     LIST_EN_UK = jd;
     changeLanguage('en-UK');
 })
