@@ -43,7 +43,7 @@ tippy('.devicon-r-plain', {
     animation: 'scale-extreme',
 });
 
-tippy('.devicon-python-plain', {
+tippy('.img-python', {
     content: 'Python',
     theme: 'translucent',
     animation: 'scale-extreme',
@@ -72,6 +72,13 @@ tippy('.img-oracle', {
     theme: 'translucent',
     animation: 'scale-extreme',
 });
+
+tippy('.img-sqlite', {
+    content: 'SQLite',
+    theme: 'translucent',
+    animation: 'scale-extreme',
+});
+
 
 tippy('.devicon-react-plain', {
     content: 'React',
@@ -171,6 +178,18 @@ tippy('.img-spring-security', {
 
 tippy('.img-spring-data', {
     content: 'Spring Data',
+    theme: 'translucent',
+    animation: 'scale-extreme',
+});
+
+tippy('.img-django', {
+    content: 'Django',
+    theme: 'translucent',
+    animation: 'scale-extreme',
+});
+
+tippy('.img-flask', {
+    content: 'Flask',
     theme: 'translucent',
     animation: 'scale-extreme',
 });
