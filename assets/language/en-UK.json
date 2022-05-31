@@ -6,6 +6,7 @@
     { "key": "line-projects", "value": "Projects" },
     { "key": "btn-modal-close", "value": "Close" },
     { "key": "btn-read-more", "value": "Read more" },
+    { "key": "line-see-on-your-mobile", "value": "Show on mobile" },
     { "key": "title-modal-project-erp", "value": "Enterprise Resource Planning" },
     { "key": "title-project-erp-description-1", "value": "Integrated business management system focused on internet providers, for inventory management, work orders, vehicle fleet, payslips, internal regulations." },
     { "key": "title-project-erp-description-2", "value": "The system has integrations with a customer management system, a telephone call system over IP, PABx, it TV, Paramount Plus, Fortics, among others." },

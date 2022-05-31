@@ -25,14 +25,8 @@ tippy('.devicon-typescript-plain', {
     animation: 'scale-extreme',
 });
 
-tippy('.devicon-java-plain', {
+tippy('.img-java', {
     content: 'JAVA',
-    theme: 'translucent',
-    animation: 'scale-extreme',
-});
-
-tippy('.devicon-python-plain', {
-    content: 'Python',
     theme: 'translucent',
     animation: 'scale-extreme',
 });

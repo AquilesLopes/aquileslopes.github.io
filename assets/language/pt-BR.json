@@ -6,6 +6,7 @@
     { "key": "line-projects", "value": "Projetos" },
     { "key": "btn-modal-close", "value": "Fechar" },
     { "key": "btn-read-more", "value": "Ver mais" },
+    { "key": "line-see-on-your-mobile", "value": "Visualizar no celular" },
     { "key": "title-modal-project-erp", "value": "Planejamento de Recursos Empresariais" },
     { "key": "title-project-erp-description-1", "value": "Sistema integrado de gestão empresarial focado em provedores de internet, para gerenciamento de estoque, ordens de serviço, frota de veículos, holerites, normas internas." },
     { "key": "title-project-erp-description-2", "value": "O sistema possui integração com sistema de gerenciamento de clientes, sistema de ligações telefônicas sobre IP, PABx, it TV, Paramount Plus, Fortics, entre outros." },

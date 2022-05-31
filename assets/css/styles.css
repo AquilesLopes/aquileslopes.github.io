@@ -36,9 +36,9 @@
     --main-color: #54B689;
     --main-text-color: #FFF;
     --border-color: #999;
-    --bio-bg-color: #1E2A3A;
+    --bio-bg-color: #0f151d;
     --bio-border-color: #293544;
-    --about-bg-color: #111821;
+    --about-bg-color: #000000;
 }
 
 
@@ -195,12 +195,20 @@ a:link {
     text-align: center;
 }
 
-#skills-section-title {
+.border-top-main-color {
     border-top: 1px solid var(--main-color);
-    padding-top: 20px;
+}
+
+#qrcode {
+    padding-top: 10px;
     margin-bottom: 20px;
-    font-size: 26px;
-    text-align: center;
+    justify-content: center;
+    color: var(--main-text-color);
+}
+
+#qrcode img {
+    width: 100px;
+    height: 100px;
 }
 
 #projects-section-title {
@@ -325,6 +333,21 @@ a:link {
 .blackWhite:hover {
     -webkit-filter: none;
     filter: none;
+}
+
+
+/* Projects Container */
+
+.wrapper {
+    font: 50px/50px DIN_Bold, Arial, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-weight: 400;
+    font-style: normal;
+    margin: auto auto 40px;
+    text-align: center;
+    color: var(--main-text-color);
+    padding-top: 30px;
 }
 
 

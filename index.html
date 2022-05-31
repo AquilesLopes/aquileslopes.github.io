@@ -22,8 +22,8 @@
     <link rel="apple-touch-icon" sizes="152x152" href="assets/img/icon/apple-touch-icon-152x152.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/icon/apple-touch-icon-180x180.png" />
 
-    <meta name="theme-color" content="#1E2A3A">
-    <meta name="msapplication-TileColor" content="#1E2A3A">
+    <meta name="theme-color" content="#0f151d">
+    <meta name="msapplication-TileColor" content="#0f151d">
     <meta name="msapplication-TileImage" content="assets/img/icon/apple-touch-icon-72x72.png">
     <meta name="msapplication-TileImage" content="assets/img/icon/apple-touch-icon-114x114.png">
     <meta name="msapplication-TileImage" content="assets/img/icon/apple-touch-icon-180x180.png">
@@ -37,8 +37,8 @@
     <meta property="og:url" content="https://aquileslopes.github.io">
     <meta property="og:image" content="https://aquileslopes.github.io/assets/img/profile_icon.png">
     <meta property="og:image:secure_url" content="https://aquileslopes.github.io/assets/img/profile_icon.png">
-    <meta property="og:image:width" content="1259">
-    <meta property="og:image:height" content="507">
+    <meta property="og:image:width" content="1277">
+    <meta property="og:image:height" content="682">
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:alt" content="Profile image - Aquiles Lopes" />
 
@@ -134,9 +134,14 @@
                     <i class="fa-solid fa-envelope"></i> aquiles_lopes@outlook.com
                 </a>
             </div>
+            <br>
+            <div class="invisible" id="qrcode">
+                <p class="line-see-on-your-mobile"></p>
+                <img src="assets/img/qrcode.png" alt="QR Code - Page Aquiles Lopes" />
+            </div>
         </aside>
         <section id="about-container">
-            <h2 id="formation-section-title" class="line-formation">
+            <h2 class="line-formation wrapper">
                 <span class="spinner-grow text-success spinner-grow-sm" role="status">
                     <span class="visually-hidden">Loading...</span>
                 </span>
@@ -153,7 +158,7 @@
             </p>
             <p></p>
 
-            <h2 data-aos="zoom-in-up" id="skills-section-title">Hard Skills</h2>
+            <h2 class="wrapper border-top-main-color" data-aos="zoom-in-up">Hard Skills</h2>
 
             <div id="skills-container">
                 <div data-aos="zoom-in-up" class="skills-box">
@@ -164,10 +169,14 @@
                     <i class="devicon-typescript-plain colored"></i>
                 </div>
                 <div data-aos="zoom-in-up" class="skills-box">
-                    <p class="skills-title">Back-end</p>
-                    <i class="devicon-java-plain colored"></i>
-                    <img class="img-python" src="assets/img/python.svg" />
+                    <p class="skills-title">Front-end Frameworks</p>
+                    <i class="devicon-ionic-original"></i>
+                    <i class="devicon-react-plain colored"></i>
+                    <i class="devicon-angularjs-plain colored"></i>
+                    <i class="devicon-bootstrap-plain colored"></i>
+                    <i class="devicon-jquery-plain colored"></i>
                 </div>
+
                 <div data-aos="zoom-in-up" class="skills-box">
                     <p class="skills-title">Databases</p>
                     <i class="devicon-mongodb-plain colored"></i>
@@ -177,12 +186,9 @@
                     <img class="img-sqlite" src="assets/img/sqlite.svg" />
                 </div>
                 <div data-aos="zoom-in-up" class="skills-box">
-                    <p class="skills-title">Front-end Frameworks</p>
-                    <i class="devicon-ionic-original"></i>
-                    <i class="devicon-react-plain colored"></i>
-                    <i class="devicon-angularjs-plain colored"></i>
-                    <i class="devicon-bootstrap-plain colored"></i>
-                    <i class="devicon-jquery-plain colored"></i>
+                    <p class="skills-title">Back-end</p>
+                    <img class="img-java" src="assets/img/java.svg" />
+                    <img class="img-python" src="assets/img/python.svg" />
                 </div>
                 <div data-aos="zoom-in-up" class="skills-box">
                     <p class="skills-title">Back-end Frameworks</p>
@@ -210,14 +216,14 @@
     <!-- Project ERP -->
     <section id="about-projects">
 
-        <h5 data-aos="zoom-in-up" class="modal-title title-modal-project-erp project-title">
+        <h2 data-aos="zoom-in-up" class="modal-title title-modal-project-erp wrapper">
             <div class="spinner-grow text-light spinner-grow-sm" role="status">
                 <span class="visually-hidden">Loading...</span>
             </div>
-        </h5>
+        </h2>
         <div class="row my-3">
             <div data-aos="zoom-in-up" class="col-sm-7">
-                <div id="carouselErpIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div id="carouselErpIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="assets/img/projects/erp/1.png" class="d-block w-100" alt="...">
@@ -262,7 +268,7 @@
                     <i class="devicon-javascript-plain colored"></i>
                     <i class="devicon-bootstrap-plain colored"></i>
                     <i class="devicon-jquery-plain colored"></i>
-                    <i class="devicon-java-plain colored"></i>
+                    <img class="img-java" src="assets/img/java.svg" />
                     <i class="devicon-mongodb-plain colored"></i>
                     <i class="devicon-mysql-plain colored"></i>
                     <i class="devicon-postgresql-plain colored"></i>
@@ -277,10 +283,10 @@
         </div>
 
         <!-- Project Hermes -->
-        <h5 data-aos="zoom-in-up" class="modal-title title-modal-project-hermes project-title"></h5>
+        <h2 data-aos="zoom-in-up" class="modal-title title-modal-project-hermes wrapper"></h2>
         <div class="row">
             <div data-aos="zoom-in-up" class="col-sm-7">
-                <div id="carouselHermesIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div id="carouselHermesIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="assets/img/projects/hermes/1.png" class="d-block w-100" alt="...">
@@ -329,7 +335,7 @@
                     <i class="devicon-css3-plain colored"></i>
                     <i class="devicon-javascript-plain colored"></i>
                     <i class="devicon-typescript-plain colored"></i>
-                    <i class="devicon-java-plain colored"></i>
+                    <img class="img-java" src="assets/img/java.svg" />
                     <i class="devicon-mongodb-plain colored"></i>
                     <img class="img-spring-boot" src="assets/img/spring_boot.svg" />
                     <img class="img-spring-data" src="assets/img/spring_data.svg" />
@@ -346,10 +352,10 @@
         </div>
 
         <!-- Project Mercury -->
-        <h5 data-aos="zoom-in-up" class="modal-title title-modal-project-mercury project-title"></h5>
+        <h2 data-aos="zoom-in-up" class="modal-title title-modal-project-mercury wrapper"></h2>
         <div class="row">
             <div data-aos="zoom-in-up" class="col-sm-7">
-                <div id="carouselMercuryIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div id="carouselMercuryIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="assets/img/projects/mercury/1.png" class="d-block w-100" alt="...">
@@ -398,7 +404,7 @@
                     <i class="devicon-css3-plain colored"></i>
                     <i class="devicon-javascript-plain colored"></i>
                     <i class="devicon-typescript-plain colored"></i>
-                    <i class="devicon-java-plain colored"></i>
+                    <img class="img-java" src="assets/img/java.svg" />
                     <i class="devicon-mongodb-plain colored"></i>
                     <img class="img-spring-boot" src="assets/img/spring_boot.svg" />
                     <img class="img-spring-data" src="assets/img/spring_data.svg" />
@@ -445,11 +451,17 @@
         }
     }
 
+    if (isMobile()) {
+        $("#qrcode").remove();
+    } else {
+        $("#qrcode").removeClass("invisible");
+    }
+
     function colorBio() {
         if (window.scrollY > 75) {
-            $("#bio-container").css("background-color", "#111821");
+            $("#bio-container").css("background-color", "#000000");
         } else {
-            $("#bio-container").css("background-color", "#1E2A3A");
+            $("#bio-container").css("background-color", "#0f151d");
         }
     }
 
