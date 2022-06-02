@@ -61,6 +61,10 @@ a:link {
     color: var(--main-text-color)
 }
 
+.color-nav-bar {
+    background-color: #0f151d;
+}
+
 #bio-container {
     flex: 1 1 23%;
     min-height: 100vh;

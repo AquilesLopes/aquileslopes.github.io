@@ -95,13 +95,14 @@
 </head>
 
 <body class="user-select-none">
-    <nav data-aos="zoom-in-up" class="navbar fixed-top float-end navbar-dark">
-        <div id="menu-language" class="position-absolute fixed-top my-3 top-0 end-0">
+    <nav data-aos="zoom-in-up" id="nav-bar-menu" class="navbar fixed-top navbar-dark">
+        <a class="navbar-brand mx-3" id="link-top-nav-bar" href="#"></a>
+        <div id="menu-language" class="my-3 top-0 end-0">
             <a href="javascript:void(0)" onclick="changeLanguage('pt-BR')">
-                <img id="img-brazil" class="img-brazil float-end" src="assets/img/brazil.svg" />
+                <img id="img-brazil" class="img-brazil" src="assets/img/brazil.svg" />
             </a>
             <a href="javascript:void(0)" onclick="changeLanguage('en-UK')">
-                <img id="img-united-kingdom" class="img-united-kingdom float-end" src="assets/img/united_kingdom.svg" />
+                <img id="img-united-kingdom" class="img-united-kingdom" src="assets/img/united_kingdom.svg" />
             </a>
         </div>
     </nav>
@@ -466,7 +467,7 @@
         $("#qrcode").removeClass("invisible");
     }
 
-    function colorBio() {
+    function changeBio() {
         if (window.scrollY > 75) {
             $("#bio-container").css("background-color", "#000000");
         } else {
@@ -474,8 +475,23 @@
         }
     }
 
+    function changeMenuBar() {
+        if (window.scrollY > 75) {
+            $("#nav-bar-menu").addClass('color-nav-bar');
+            $("#link-top-nav-bar").text('Aquiles Lopes');
+            $("#bio-container").css("background-color", "#000000");
+        } else {
+            $("#nav-bar-menu").removeClass('color-nav-bar');
+            $("#link-top-nav-bar").text('');
+            $("#bio-container").css("background-color", "#0f151d");
+        }
+    }
+
     if ($(document).width() >= 450) {
-        document.addEventListener('scroll', colorBio);
+        document.addEventListener('scroll', changeBio);
+        document.addEventListener('scroll', changeMenuBar);
+    } else {
+        document.addEventListener('scroll', changeMenuBar);
     }
 </script>
 
