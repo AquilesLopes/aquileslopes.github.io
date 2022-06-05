@@ -109,9 +109,11 @@
 
     <main id="container">
         <aside id="bio-container">
+            <br>
             <h2 class="wrapper-title">Aquiles Lopes</h2>
             <img id="bio-image" src="assets/img/aquiles_image.png" alt="" />
-            <p><span class="highlight line-software-engineer">
+            <p>
+                <span class="highlight line-software-engineer">
                 <span class="spinner-grow text-success spinner-grow-sm" role="status">
                     <span class="visually-hidden">Loading...</span>
                 </span>
@@ -167,6 +169,7 @@
             </p>
             <p></p>
 
+            <br>
             <h2 class="wrapper border-top-main-color" data-aos="zoom-in-up">Hard Skills</h2>
 
             <div id="skills-container">
@@ -188,7 +191,7 @@
 
                 <div data-aos="zoom-in-up" class="skills-box">
                     <p class="skills-title">Databases</p>
-                    <i class="devicon-mongodb-plain colored"></i>
+                    <img class="img-mongodb" src="assets/img/mongodb.svg" />
                     <i class="devicon-mysql-plain colored"></i>
                     <i class="devicon-postgresql-plain colored"></i>
                     <img class="img-oracle" src="assets/img/oracle.svg" />
@@ -278,7 +281,7 @@
                     <i class="devicon-bootstrap-plain colored"></i>
                     <i class="devicon-jquery-plain colored"></i>
                     <img class="img-java" src="assets/img/java.svg" />
-                    <i class="devicon-mongodb-plain colored"></i>
+                    <img class="img-mongodb" src="assets/img/mongodb.svg" />
                     <i class="devicon-mysql-plain colored"></i>
                     <i class="devicon-postgresql-plain colored"></i>
                     <img class="img-cordova" src="assets/img/cordova.svg" />
@@ -345,7 +348,7 @@
                     <i class="devicon-javascript-plain colored"></i>
                     <i class="devicon-typescript-plain colored"></i>
                     <img class="img-java" src="assets/img/java.svg" />
-                    <i class="devicon-mongodb-plain colored"></i>
+                    <img class="img-mongodb" src="assets/img/mongodb.svg" />
                     <img class="img-spring-boot" src="assets/img/spring_boot.svg" />
                     <img class="img-spring-data" src="assets/img/spring_data.svg" />
                     <img class="img-spring-security" src="assets/img/spring_security.svg" />
@@ -414,7 +417,7 @@
                     <i class="devicon-javascript-plain colored"></i>
                     <i class="devicon-typescript-plain colored"></i>
                     <img class="img-java" src="assets/img/java.svg" />
-                    <i class="devicon-mongodb-plain colored"></i>
+                    <img class="img-mongodb" src="assets/img/mongodb.svg" />
                     <img class="img-spring-boot" src="assets/img/spring_boot.svg" />
                     <img class="img-spring-data" src="assets/img/spring_data.svg" />
                     <img class="img-spring-security" src="assets/img/spring_security.svg" />
@@ -470,8 +473,10 @@
     function changeBio() {
         if (window.scrollY > 75) {
             $("#bio-container").css("background-color", "#000000");
+            $("#qrcode").addClass("invisible");
         } else {
             $("#bio-container").css("background-color", "#0f151d");
+            $("#qrcode").removeClass("invisible");
         }
     }
 

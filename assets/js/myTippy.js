@@ -43,7 +43,7 @@ tippy('.img-python', {
     animation: 'scale-extreme',
 });
 
-tippy('.devicon-mongodb-plain', {
+tippy('.img-mongodb', {
     content: 'MongoDB',
     theme: 'translucent',
     animation: 'scale-extreme',
