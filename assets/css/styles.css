@@ -204,15 +204,15 @@ a:link {
 }
 
 #qrcode {
-    padding-top: 10px;
-    margin-bottom: 20px;
+    padding-top: 5px;
+    margin-bottom: 10px;
     justify-content: center;
     color: var(--main-text-color);
 }
 
 #qrcode img {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
 }
 
 #projects-section-title {
@@ -351,7 +351,7 @@ a:link {
     margin: auto auto 40px;
     text-align: center;
     color: var(--main-text-color);
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .wrapper-title {
