@@ -31,6 +31,12 @@ tippy('.img-java', {
     animation: 'scale-extreme',
 });
 
+tippy('.img-kotlin', {
+    content: 'Kotlin',
+    theme: 'translucent',
+    animation: 'scale-extreme',
+});
+
 tippy('.devicon-r-plain', {
     content: 'R Language',
     theme: 'translucent',
