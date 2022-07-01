@@ -204,15 +204,13 @@ a:link {
 }
 
 #qrcode {
-    padding-top: 5px;
-    margin-bottom: 10px;
     justify-content: center;
     color: var(--main-text-color);
 }
 
 #qrcode img {
-    width: 90px;
-    height: 90px;
+    width: 111px;
+    height: 111px;
 }
 
 #projects-section-title {
