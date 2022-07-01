@@ -9,11 +9,11 @@
 
 * {
     scrollbar-width: thin;
-    scrollbar-color: #111821 white;
+    scrollbar-color: #54B689 white;
 }
 
 *::-webkit-scrollbar {
-    width: 3px;
+    width: 4px;
 }
 
 *::-webkit-scrollbar-track {
@@ -21,12 +21,12 @@
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: #111821;
+    background-color: #54B689;
 }
 
 .tippy-box[data-theme~='gluom'] {
-    background-color: #000000;
-    color: #111821;
+    background-color: #54B689;
+    color: #f5f5f5;
 }
 
 
@@ -34,11 +34,11 @@
 
 :root {
     --main-color: #54B689;
-    --main-text-color: #FFF;
-    --border-color: #999;
-    --bio-bg-color: #0f151d;
-    --bio-border-color: #293544;
-    --about-bg-color: #000000;
+    --main-text-color: rgb(5, 5, 5);
+    --border-color: #54B689;
+    --bio-bg-color: #f5f5f5;
+    --bio-border-color: #54B689;
+    --about-bg-color: #f5f5f5;
 }
 
 
@@ -62,7 +62,7 @@ a:link {
 }
 
 .color-nav-bar {
-    background-color: #0f151d;
+    background-color: #54B689;
 }
 
 #bio-container {

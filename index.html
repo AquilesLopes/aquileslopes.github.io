@@ -37,8 +37,8 @@
     <meta property="og:url" content="https://aquileslopes.github.io">
     <meta property="og:image" content="https://aquileslopes.github.io/assets/img/profile_icon.png">
     <meta property="og:image:secure_url" content="https://aquileslopes.github.io/assets/img/profile_icon.png">
-    <meta property="og:image:width" content="1555">
-    <meta property="og:image:height" content="629">
+    <meta property="og:image:width" content="1599">
+    <meta property="og:image:height" content="680">
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:alt" content="Profile image - Aquiles Lopes" />
 
@@ -123,7 +123,7 @@
                     <img class="img-xing" src="assets/img/socials/xing.svg" />
                 </a>
                 <a href="https://github.com/AquilesLopes" target="_blank">
-                    <img class="img-github" src="assets/img/socials/github.svg" />
+                    <img class="img-github" src="assets/img/socials/github_dark.svg" />
                 </a>
                 <a href="https://discord.com/users/Aquiles#6215" target="_blank">
                     <img class="img-discord" src="assets/img/socials/discord.svg" />
@@ -468,10 +468,8 @@
 
         function changeBio() {
             if (window.scrollY > 75) {
-                $("#bio-container").css("background-color", "#000000");
                 $("#qrcode").addClass("invisible");
             } else {
-                $("#bio-container").css("background-color", "#0f151d");
                 $("#qrcode").removeClass("invisible");
             }
         }
@@ -480,11 +478,9 @@
             if (window.scrollY > 75) {
                 $("#nav-bar-menu").addClass('color-nav-bar');
                 $("#link-top-nav-bar").text('Aquiles Lopes');
-                $("#bio-container").css("background-color", "#000000");
             } else {
                 $("#nav-bar-menu").removeClass('color-nav-bar');
                 $("#link-top-nav-bar").text('');
-                $("#bio-container").css("background-color", "#0f151d");
             }
         }
 
