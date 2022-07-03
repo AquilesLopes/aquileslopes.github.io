@@ -111,10 +111,10 @@
             <br>
             <h2 class="wrapper-title">Aquiles Lopes</h2>
             <h5>
-                <span class="line-software-engineer highlight"></span>
+                <b class="line-software-engineer highlight"></b>
             </h5>
             <img id="bio-image" src="assets/img/loading.gif" alt="" />
-            <p><span class="highlight line-locale"></span></p>
+            <p><b class="highlight line-locale"></b></p>
             <div id="socials-container">
                 <a href="https://www.linkedin.com/in/aquiles-lopes-33a755a1" target="_blank">
                     <img class="img-linkedin" src="assets/img/socials/linkedin.svg" />
@@ -149,6 +149,7 @@
                 <img src="assets/img/QRCode.svg" alt="QR Code - Page Aquiles Lopes" />
             </div>
         </aside>
+
         <section id="about-container">
             <h2 class="line-formation wrapper">
                 <span class="spinner-grow text-success spinner-grow-sm" role="status">
@@ -168,7 +169,6 @@
             <p></p>
 
             <h2 translate="no" class="wrapper border-top-main-color" data-aos="zoom-in-up">Hard Skills</h2>
-
             <div id="skills-container">
                 <div data-aos="zoom-in-up" class="skills-box">
                     <p translate="no" class="skills-title">Front-end</p>
@@ -179,7 +179,7 @@
                 </div>
                 <div data-aos="zoom-in-up" class="skills-box">
                     <p translate="no" class="skills-title">Front-end Frameworks</p>
-                    <i class="devicon-ionic-original"></i>
+                    <img class="img-ionic" src="assets/img/ionic.svg" />
                     <i class="devicon-react-plain colored"></i>
                     <i class="devicon-angularjs-plain colored"></i>
                     <i class="devicon-bootstrap-plain colored"></i>
@@ -493,10 +493,8 @@
 
         $.getJSON('https://api.github.com/users/aquileslopes', function(jd) {
             $("#bio-image").attr("src", jd.avatar_url);
-            console.log('success')
         }).fail(function() {
             $("#bio-image").attr("src", 'assets/img/aquiles_image.png');
-            console.log('error')
         })
     </script>
 </body>

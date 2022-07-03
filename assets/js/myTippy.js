@@ -86,7 +86,7 @@ tippy('.devicon-react-plain', {
     animation: 'scale-extreme',
 });
 
-tippy('.devicon-ionic-original', {
+tippy('.img-ionic', {
     content: 'Ionic',
     theme: 'translucent',
     animation: 'scale-extreme',
