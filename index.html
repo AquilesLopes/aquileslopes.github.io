@@ -35,10 +35,10 @@
     <meta property="og:locale" content="pt_BR">
     <meta property="og:site_name" content="Aquiles Lopes">
     <meta property="og:url" content="https://aquileslopes.github.io">
-    <meta property="og:image" content="https://aquileslopes.github.io/assets/img/profile_icon.png">
-    <meta property="og:image:secure_url" content="https://aquileslopes.github.io/assets/img/profile_icon.png">
-    <meta property="og:image:width" content="1599">
-    <meta property="og:image:height" content="680">
+    <meta property="og:image" content="https://aquileslopes.github.io/assets/img/banner_page.png">
+    <meta property="og:image:secure_url" content="https://aquileslopes.github.io/assets/img/banner_page.png">
+    <meta property="og:image:width" content="1568">
+    <meta property="og:image:height" content="690">
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:alt" content="Profile image - Aquiles Lopes" />
 
@@ -48,7 +48,7 @@
     <meta property="twitter:url" content="https://aquileslopes.github.io">
     <meta name="twitter:title" content="Aquiles Lopes">
     <meta name="twitter:description" content="Software Engineer">
-    <meta name="twitter:image" content="https://aquileslopes.github.io/assets/img/profile_icon.png">
+    <meta name="twitter:image" content="https://aquileslopes.github.io/assets/img/banner_page.png">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -95,7 +95,8 @@
 
 <body class="user-select-none">
     <nav data-aos="zoom-in-up" id="nav-bar-menu" class="navbar fixed-top bg-gradient navbar-dark">
-        <a class="navbar-brand mx-3 wrapper-title" id="link-top-nav-bar" href="#"></a>
+        <a id="link-top-nav-bar" href="javascript:void(0)" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu" class="navbar-brand mx-3 wrapper-title">
+        </a>
         <div id="menu-language" class="my-3 top-0 end-0">
             <a href="javascript:void(0)" onclick="changeLanguage('pt-BR')">
                 <img id="img-brazil" class="img-brazil" src="assets/img/brazil.svg" />
@@ -433,6 +434,18 @@
         <br><br>
     </section>
 
+    <!-- Offcanvas -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+        <div class="offcanvas-header">
+            <h3 class="wrapper-title">Aquiles Lopes</h3>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div id="bio-container-offcanvas-body">
+            </div>
+        </div>
+    </div>
+
     <!-- Icon IONIC -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
@@ -495,6 +508,14 @@
             $("#bio-image").attr("src", jd.avatar_url);
         }).fail(function() {
             $("#bio-image").attr("src", 'assets/img/aquiles_image.png');
+        })
+
+        //ofcanvas
+        var offcanvasMenu = document.getElementById('offcanvasMenu')
+        offcanvasMenu.addEventListener('shown.bs.offcanvas', function() {
+            var htmlBio = $("#bio-container").html();
+            htmlBio = htmlBio.replaceAll('invisible', '');
+            $("#bio-container-offcanvas-body").html(htmlBio);
         })
     </script>
 </body>

@@ -111,8 +111,9 @@ a:link {
     width: 180px;
     height: 180px;
     margin-bottom: 20px;
-    border-radius: 30px;
-    border: 2px solid var(--main-color);
+    border-radius: 35px;
+    border: 3px solid var(--main-color);
+    padding: 0px;
 }
 
 #socials-container img {
@@ -121,6 +122,7 @@ a:link {
     margin-right: 10px;
     margin-top: 0px;
     vertical-align: top;
+    padding: 0px;
 }
 
 #socials-container img:hover {
@@ -359,6 +361,22 @@ a:link {
     font-style: normal;
     text-align: center;
     color: var(--main-text-color);
+}
+
+#offcanvasMenu {
+    background-color: #f5f5f5;
+}
+
+#bio-container-offcanvas-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#bio-container-offcanvas-body h2 {
+    display: none;
 }
 
 
