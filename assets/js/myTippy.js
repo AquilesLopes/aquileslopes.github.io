@@ -81,7 +81,7 @@ tippy('.img-sqlite', {
 
 
 tippy('.devicon-react-plain', {
-    content: 'ReactJS',
+    content: 'React',
     theme: 'translucent',
     animation: 'scale-extreme',
 });
@@ -93,7 +93,7 @@ tippy('.img-ionic', {
 });
 
 tippy('.devicon-angularjs-plain', {
-    content: 'AngularJS',
+    content: 'Angular',
     theme: 'translucent',
     animation: 'scale-extreme',
 });
