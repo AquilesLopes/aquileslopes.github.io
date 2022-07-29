@@ -134,7 +134,6 @@ a:link {
 }
 
 #email-container a {
-    border-top: 1px solid var(--main-color);
     padding-top: 3px;
     margin-bottom: 3px;
     justify-content: center;
@@ -415,10 +414,6 @@ a:link {
         margin-right: 10px;
         margin-top: 0px;
         vertical-align: top;
-    }
-    #email-container a {
-        height: 50px;
-        width: auto;
     }
     .skills-project-title {
         text-align: center;
