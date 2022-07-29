@@ -135,8 +135,8 @@ a:link {
 
 #email-container a {
     border-top: 1px solid var(--main-color);
-    padding-top: 20px;
-    margin-bottom: 20px;
+    padding-top: 3px;
+    margin-bottom: 3px;
     justify-content: center;
     color: var(--main-text-color);
 }

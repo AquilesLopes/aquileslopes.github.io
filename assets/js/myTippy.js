@@ -13,6 +13,12 @@ tippy('.devicon-css3-plain', {
     animation: 'scale-extreme',
 });
 
+tippy('.img-sass', {
+    content: 'SASS',
+    theme: 'translucent',
+    animation: 'scale-extreme',
+});
+
 tippy('.devicon-javascript-plain', {
     content: 'JavaScript',
     theme: 'translucent',

@@ -138,12 +138,13 @@
                 </a>
                 -->
             </div>
-            <br><br>
-            <div id="email-container">
-                <a href="mailto:aquiles_lopes@outlook.com" target="_blank">
+
+            <div id="email-container" class="my-2">
+                <a href="mailto:aquiles_lopes@outlook.com"  target="_blank">
                     <i class="fa-solid fa-envelope"></i> aquiles_lopes@outlook.com
                 </a>
             </div>
+            
             <br>
             <div class="invisible" id="qrcode">
                 <span class="line-see-on-your-mobile"></span><br>
@@ -175,6 +176,7 @@
                     <p translate="no" class="skills-title">Front-end</p>
                     <i id="devicon-html5-plain" class="devicon-html5-plain colored"></i>
                     <i class="devicon-css3-plain colored"></i>
+                    <img class="img-sass" src="assets/img/sass.svg" />
                     <i class="devicon-javascript-plain colored"></i>
                     <i class="devicon-typescript-plain colored"></i>
                 </div>
@@ -514,7 +516,7 @@
         var offcanvasMenu = document.getElementById('offcanvasMenu')
         offcanvasMenu.addEventListener('shown.bs.offcanvas', function() {
             var htmlBio = $("#bio-container").html();
-            htmlBio = htmlBio.replaceAll('invisible', '');
+            htmlBio = htmlBio.replaceAll('invisible', 'my-3');
             $("#bio-container-offcanvas-body").html(htmlBio);
         })
     </script>
