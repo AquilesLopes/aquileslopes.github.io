@@ -3,37 +3,37 @@
   "name": "Aquiles Lopes - Software Engineer",
   "icons": [
     {
-      "src": "resources/img/icon/ic_gluom_92.png",
+      "src": "img/icon/ic_gluom_92.png",
       "type": "image/png",
       "sizes": "92x92"
     },
     {
-      "src": "resources/img/icon/ic_gluom_138.png",
+      "src": "img/icon/ic_gluom_138.png",
       "type": "image/png",
       "sizes": "138x138"
     },
     {
-      "src": "resources/img/icon/ic_gluom_184.png",
+      "src": "img/icon/ic_gluom_184.png",
       "type": "image/png",
       "sizes": "184x184"
     },
     {
-      "src": "resources/img/icon/ic_gluom_192.png",
+      "src": "img/icon/ic_gluom_192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "resources/img/icon/ic_gluom_276.png",
+      "src": "img/icon/ic_gluom_276.png",
       "type": "image/png",
       "sizes": "276x276"
     },
     {
-      "src": "resources/img/icon/ic_gluom_368.png",
+      "src": "img/icon/ic_gluom_368.png",
       "type": "image/png",
       "sizes": "368x368"
     },
     {
-      "src": "resources/img/icon/ic_gluom_512.png",
+      "src": "img/icon/ic_gluom_512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
